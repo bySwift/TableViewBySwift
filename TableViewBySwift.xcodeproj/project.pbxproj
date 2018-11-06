@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CCEC5CF103209AECE603559 /* Pods_TableViewBySwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9372ED4C0DB37FDFA96E2391 /* Pods_TableViewBySwiftUITests.framework */; };
+		9B0CBEFB219047390073A168 /* LeccoGlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CBEFA219047390073A168 /* LeccoGlobalConst.swift */; };
+		9B0CBF012191344B0073A168 /* UIColor+GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CBF002191344B0073A168 /* UIColor+GlobalConst.swift */; };
+		9B0CBF032191345A0073A168 /* UIFont+GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CBF022191345A0073A168 /* UIFont+GlobalConst.swift */; };
 		9BFF228F2186F561005C158C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF228E2186F561005C158C /* AppDelegate.swift */; };
-		9BFF22912186F561005C158C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22902186F561005C158C /* ViewController.swift */; };
-		9BFF22942186F561005C158C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF22922186F561005C158C /* Main.storyboard */; };
 		9BFF22962186F562005C158C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF22952186F562005C158C /* Assets.xcassets */; };
 		9BFF22992186F562005C158C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF22972186F562005C158C /* LaunchScreen.storyboard */; };
 		9BFF22A42186F562005C158C /* TableViewBySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22A32186F562005C158C /* TableViewBySwiftTests.swift */; };
 		9BFF22AF2186F562005C158C /* TableViewBySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22AE2186F562005C158C /* TableViewBySwiftUITests.swift */; };
+		9BFF22BE2186F624005C158C /* LEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22BD2186F624005C158C /* LEBaseViewController.swift */; };
+		9BFF22C02186F643005C158C /* LEBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22BF2186F643005C158C /* LEBaseNavigationController.swift */; };
+		9BFF22C22186F65E005C158C /* LEBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22C12186F65E005C158C /* LEBaseTabBarController.swift */; };
+		9BFF22C62186F777005C158C /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22C52186F777005C158C /* Tab1ViewController.swift */; };
+		9BFF22C82186F788005C158C /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22C72186F788005C158C /* Tab2ViewController.swift */; };
+		9BFF22CB2186FD9C005C158C /* LENormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF22C92186FD9C005C158C /* LENormalTableViewCell.swift */; };
+		9BFF22CC2186FD9C005C158C /* LENormalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF22CA2186FD9C005C158C /* LENormalTableViewCell.xib */; };
+		BAA8138EAEDC14AE1E81DD02 /* Pods_TableViewBySwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFEF07E31C4A1C173A90C0 /* Pods_TableViewBySwiftTests.framework */; };
+		C44D3BF9635DD4AB2A44592C /* Pods_TableViewBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DADBD9E5F06A67A460BB5B /* Pods_TableViewBySwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E6D4BD3FC401DF142E0FA61 /* Pods-TableViewBySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewBySwift.release.xcconfig"; path = "Target Support Files/Pods-TableViewBySwift/Pods-TableViewBySwift.release.xcconfig"; sourceTree = "<group>"; };
+		7AB145DAA9DBF4CB1ABF6F53 /* Pods-TableViewBySwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewBySwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableViewBySwiftUITests/Pods-TableViewBySwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		932E78F16E6EDBE4D35DA696 /* Pods-TableViewBySwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewBySwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-TableViewBySwiftUITests/Pods-TableViewBySwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9372ED4C0DB37FDFA96E2391 /* Pods_TableViewBySwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewBySwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0CBEFA219047390073A168 /* LeccoGlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeccoGlobalConst.swift; sourceTree = "<group>"; };
+		9B0CBF002191344B0073A168 /* UIColor+GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+GlobalConst.swift"; sourceTree = "<group>"; };
+		9B0CBF022191345A0073A168 /* UIFont+GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+GlobalConst.swift"; sourceTree = "<group>"; };
 		9BFF228B2186F561005C158C /* TableViewBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFF228E2186F561005C158C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BFF22902186F561005C158C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BFF22932186F561005C158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BFF22952186F562005C158C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFF22982186F562005C158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFF229A2186F562005C158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,18 @@
 		9BFF22AA2186F562005C158C /* TableViewBySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewBySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFF22AE2186F562005C158C /* TableViewBySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewBySwiftUITests.swift; sourceTree = "<group>"; };
 		9BFF22B02186F562005C158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFF22BD2186F624005C158C /* LEBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEBaseViewController.swift; sourceTree = "<group>"; };
+		9BFF22BF2186F643005C158C /* LEBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEBaseNavigationController.swift; sourceTree = "<group>"; };
+		9BFF22C12186F65E005C158C /* LEBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEBaseTabBarController.swift; sourceTree = "<group>"; };
+		9BFF22C52186F777005C158C /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
+		9BFF22C72186F788005C158C /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
+		9BFF22C92186FD9C005C158C /* LENormalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LENormalTableViewCell.swift; sourceTree = "<group>"; };
+		9BFF22CA2186FD9C005C158C /* LENormalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LENormalTableViewCell.xib; sourceTree = "<group>"; };
+		C4CFEF07E31C4A1C173A90C0 /* Pods_TableViewBySwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewBySwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E592F6708FF049D9840D3601 /* Pods-TableViewBySwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewBySwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-TableViewBySwiftTests/Pods-TableViewBySwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B34DEEF12CE097A55B9065 /* Pods-TableViewBySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewBySwift.debug.xcconfig"; path = "Target Support Files/Pods-TableViewBySwift/Pods-TableViewBySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DADBD9E5F06A67A460BB5B /* Pods_TableViewBySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewBySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC04C7C1AAB849FE14C7EA2 /* Pods-TableViewBySwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewBySwiftTests.release.xcconfig"; path = "Target Support Files/Pods-TableViewBySwiftTests/Pods-TableViewBySwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44D3BF9635DD4AB2A44592C /* Pods_TableViewBySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA8138EAEDC14AE1E81DD02 /* Pods_TableViewBySwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCEC5CF103209AECE603559 /* Pods_TableViewBySwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F038997429F144D70ACD89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DADBD9E5F06A67A460BB5B /* Pods_TableViewBySwift.framework */,
+				C4CFEF07E31C4A1C173A90C0 /* Pods_TableViewBySwiftTests.framework */,
+				9372ED4C0DB37FDFA96E2391 /* Pods_TableViewBySwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F7A38F74EED00E730EB11DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1B34DEEF12CE097A55B9065 /* Pods-TableViewBySwift.debug.xcconfig */,
+				2E6D4BD3FC401DF142E0FA61 /* Pods-TableViewBySwift.release.xcconfig */,
+				E592F6708FF049D9840D3601 /* Pods-TableViewBySwiftTests.debug.xcconfig */,
+				FFC04C7C1AAB849FE14C7EA2 /* Pods-TableViewBySwiftTests.release.xcconfig */,
+				7AB145DAA9DBF4CB1ABF6F53 /* Pods-TableViewBySwiftUITests.debug.xcconfig */,
+				932E78F16E6EDBE4D35DA696 /* Pods-TableViewBySwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B0CBEF7219046040073A168 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				9B0CBEFA219047390073A168 /* LeccoGlobalConst.swift */,
+				9B0CBF002191344B0073A168 /* UIColor+GlobalConst.swift */,
+				9B0CBF022191345A0073A168 /* UIFont+GlobalConst.swift */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
 		9BFF22822186F561005C158C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				9BFF22A22186F562005C158C /* TableViewBySwiftTests */,
 				9BFF22AD2186F562005C158C /* TableViewBySwiftUITests */,
 				9BFF228C2186F561005C158C /* Products */,
+				8F7A38F74EED00E730EB11DB /* Pods */,
+				00F038997429F144D70ACD89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +163,11 @@
 		9BFF228D2186F561005C158C /* TableViewBySwift */ = {
 			isa = PBXGroup;
 			children = (
+				9B0CBEF7219046040073A168 /* Defines */,
+				9BFF22C42186F6A0005C158C /* Tab2Group */,
+				9BFF22C32186F66F005C158C /* Tab1Group */,
+				9BFF22BC2186F5C7005C158C /* Base */,
 				9BFF228E2186F561005C158C /* AppDelegate.swift */,
-				9BFF22902186F561005C158C /* ViewController.swift */,
-				9BFF22922186F561005C158C /* Main.storyboard */,
 				9BFF22952186F562005C158C /* Assets.xcassets */,
 				9BFF22972186F562005C158C /* LaunchScreen.storyboard */,
 				9BFF229A2186F562005C158C /* Info.plist */,
@@ -125,6 +193,34 @@
 			path = TableViewBySwiftUITests;
 			sourceTree = "<group>";
 		};
+		9BFF22BC2186F5C7005C158C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF22BD2186F624005C158C /* LEBaseViewController.swift */,
+				9BFF22BF2186F643005C158C /* LEBaseNavigationController.swift */,
+				9BFF22C12186F65E005C158C /* LEBaseTabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9BFF22C32186F66F005C158C /* Tab1Group */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF22C52186F777005C158C /* Tab1ViewController.swift */,
+				9BFF22C92186FD9C005C158C /* LENormalTableViewCell.swift */,
+				9BFF22CA2186FD9C005C158C /* LENormalTableViewCell.xib */,
+			);
+			path = Tab1Group;
+			sourceTree = "<group>";
+		};
+		9BFF22C42186F6A0005C158C /* Tab2Group */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF22C72186F788005C158C /* Tab2ViewController.swift */,
+			);
+			path = Tab2Group;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BFF22B32186F562005C158C /* Build configuration list for PBXNativeTarget "TableViewBySwift" */;
 			buildPhases = (
+				E61F41430920BF8BFD150B81 /* [CP] Check Pods Manifest.lock */,
 				9BFF22872186F561005C158C /* Sources */,
 				9BFF22882186F561005C158C /* Frameworks */,
 				9BFF22892186F561005C158C /* Resources */,
+				36FC57CF08D371E1E3ABBC1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BFF22B62186F562005C158C /* Build configuration list for PBXNativeTarget "TableViewBySwiftTests" */;
 			buildPhases = (
+				486787A5ACA9F0AC04816433 /* [CP] Check Pods Manifest.lock */,
 				9BFF229B2186F562005C158C /* Sources */,
 				9BFF229C2186F562005C158C /* Frameworks */,
 				9BFF229D2186F562005C158C /* Resources */,
@@ -167,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BFF22B92186F562005C158C /* Build configuration list for PBXNativeTarget "TableViewBySwiftUITests" */;
 			buildPhases = (
+				311D555C6164A8640445628E /* [CP] Check Pods Manifest.lock */,
 				9BFF22A62186F562005C158C /* Sources */,
 				9BFF22A72186F562005C158C /* Frameworks */,
 				9BFF22A82186F562005C158C /* Resources */,
@@ -230,8 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BFF22992186F562005C158C /* LaunchScreen.storyboard in Resources */,
+				9BFF22CC2186FD9C005C158C /* LENormalTableViewCell.xib in Resources */,
 				9BFF22962186F562005C158C /* Assets.xcassets in Resources */,
-				9BFF22942186F561005C158C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +351,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		311D555C6164A8640445628E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewBySwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36FC57CF08D371E1E3ABBC1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewBySwift/Pods-TableViewBySwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PagingKit/PagingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKWebViewJavascriptBridge.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableViewBySwift/Pods-TableViewBySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		486787A5ACA9F0AC04816433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewBySwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61F41430920BF8BFD150B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewBySwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BFF22872186F561005C158C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BFF22912186F561005C158C /* ViewController.swift in Sources */,
+				9BFF22BE2186F624005C158C /* LEBaseViewController.swift in Sources */,
+				9BFF22CB2186FD9C005C158C /* LENormalTableViewCell.swift in Sources */,
+				9BFF22C22186F65E005C158C /* LEBaseTabBarController.swift in Sources */,
+				9B0CBF012191344B0073A168 /* UIColor+GlobalConst.swift in Sources */,
+				9BFF22C02186F643005C158C /* LEBaseNavigationController.swift in Sources */,
+				9BFF22C62186F777005C158C /* Tab1ViewController.swift in Sources */,
 				9BFF228F2186F561005C158C /* AppDelegate.swift in Sources */,
+				9B0CBF032191345A0073A168 /* UIFont+GlobalConst.swift in Sources */,
+				9BFF22C82186F788005C158C /* Tab2ViewController.swift in Sources */,
+				9B0CBEFB219047390073A168 /* LeccoGlobalConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +534,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BFF22922186F561005C158C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BFF22932186F561005C158C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BFF22972186F562005C158C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,10 +663,13 @@
 		};
 		9BFF22B42186F562005C158C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B34DEEF12CE097A55B9065 /* Pods-TableViewBySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
 				INFOPLIST_FILE = TableViewBySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +683,13 @@
 		};
 		9BFF22B52186F562005C158C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6D4BD3FC401DF142E0FA61 /* Pods-TableViewBySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
 				INFOPLIST_FILE = TableViewBySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +703,7 @@
 		};
 		9BFF22B72186F562005C158C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E592F6708FF049D9840D3601 /* Pods-TableViewBySwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +724,7 @@
 		};
 		9BFF22B82186F562005C158C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC04C7C1AAB849FE14C7EA2 /* Pods-TableViewBySwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +745,7 @@
 		};
 		9BFF22BA2186F562005C158C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB145DAA9DBF4CB1ABF6F53 /* Pods-TableViewBySwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +765,7 @@
 		};
 		9BFF22BB2186F562005C158C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932E78F16E6EDBE4D35DA696 /* Pods-TableViewBySwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

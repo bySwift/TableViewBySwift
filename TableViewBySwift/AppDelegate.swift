@@ -15,6 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        print("the width is \(UIScreen.screenWith())")
+        
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        
+        let tabbarVC = LEBaseTabBarController()
+        self.window?.rootViewController = tabbarVC
+        self.window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }
